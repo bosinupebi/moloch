@@ -1,7 +1,7 @@
 
 // File: contracts/oz/SafeMath.sol
 
-pragma solidity ^0.5.2;
+pragma solidity >=0.5.2;
 
 library SafeMath {
     function mul(uint256 a, uint256 b) internal pure returns (uint256) {
@@ -45,7 +45,7 @@ library SafeMath {
 
 // File: contracts/oz/IERC20.sol
 
-pragma solidity ^0.5.2;
+pragma solidity >=0.5.2;
 
 interface IERC20 {
     function transfer(address to, uint256 value) external returns (bool);
@@ -67,7 +67,7 @@ interface IERC20 {
 
 // File: contracts/IGuildBank.sol
 
-pragma solidity 0.5.3;
+pragma solidity >=0.5.3;
 
 
 interface IGuildBank  {
@@ -78,7 +78,7 @@ interface IGuildBank  {
 
 // File: contracts/Moloch.sol
 
-pragma solidity 0.5.3;
+pragma solidity >=0.5.3;
 
 
 

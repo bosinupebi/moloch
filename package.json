@@ -40,5 +40,9 @@
   "bugs": {
     "url": "https://github.com/MolochVentures/moloch/issues"
   },
-  "homepage": "https://github.com/MolochVentures/moloch#readme"
+  "homepage": "https://github.com/MolochVentures/moloch#readme",
+  "dependencies": {
+    "ganache": "^7.8.0",
+    "ganache-cli": "^6.12.2"
+  }
 }

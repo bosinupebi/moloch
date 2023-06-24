@@ -20,22 +20,23 @@ module.exports = {
         pool: ""
       }
     },
-    /* ropsten: {
-      url: `https://ropsten.infura.io/v3/${INFURA_API_KEY}`,
-      accounts: [ROPSTEN_PRIVATE_KEY],
-      deployedContracts: {
-        moloch: "",
-        pool: ""
-      }
-    },
+    // ropsten: {
+    //   url: `https://ropsten.infura.io/v3/${INFURA_API_KEY}`,
+    //   accounts: [ROPSTEN_PRIVATE_KEY],
+    //   deployedContracts: {
+    //     moloch: "",
+    //     pool: ""
+    //   }
+    // },
     mainnet: {
-      url: `https://mainnet.infura.io/v3/${INFURA_API_KEY}`,
+      url: `https://www.ethercluster.com/mordor`,
+      gasPrice: 1672100648,
       accounts: [MAINNET_PRIVATE_KEY],
       deployedContracts: {
-        moloch: "0x1fd169A4f5c59ACf79d0Fd5d91D1201EF1Bce9f1", // The original Moloch
+        moloch: " 0x35c820429228A8e3398B4D2F870a51126A99b8A6", 
         pool: ""
       }
-    }, */
+    }, 
     coverage: {
       url: "http://localhost:8555"
     }
